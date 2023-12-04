@@ -28,7 +28,7 @@
 
 ## 코드 설명
 ```
-r = redis.Redis(host='3.38.253.73',port=6379 ,password="1234", db = 0)
+r = redis.Redis(host={EC2 IPv4},port=6379 ,password={Password}, db = 0)
 //DB를 EC2 인스턴스에 docker 로 가상화 하여 올렸으므로, 커넥션 풀 설정을 변경했습니다. 
 ```
 
