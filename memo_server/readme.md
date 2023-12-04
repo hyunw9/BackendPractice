@@ -24,7 +24,8 @@
 4. Uwsgi 는 127.0.0.1:10001/memo 로 들어온 요청을 분석합니다.
    127.0.0.1 은 로컬, 10001번 포트에 열린 memo.py(app)을 실행하고, prefix 를 제거하도록 설정하였습니다. 결론적으로 http://60192159-lb-1689628747.ap-northeast-2.elb.amazonaws.com/memo/ 로 보내는 요청은  memo.py 에 app.route(‘/‘) 로 전달되게 됩니다. 
 
-![](readme/image.png)
+![image](https://github.com/hyunw9/backend2023/assets/43662405/f4890c08-70a2-4f59-ba2a-166cf9456d18)
+
 
 ## 코드 설명
 ```
