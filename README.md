@@ -1,4 +1,5 @@
-# 레포지토리 정리 내용
+#Backend Practice 
+
 
 # LAB2 : AWS 실습
 
